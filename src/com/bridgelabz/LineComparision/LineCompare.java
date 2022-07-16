@@ -27,7 +27,14 @@ public class LineCompare {
         }
         else
             System.out.println("two lines are not equal");
-        
+
+        if (l1.compareTo(l2) > 0) {
+            System.out.println("line 1 is greater than line 2");
+        }else if (l1.compareTo(l2) < 0) {
+            System.out.println("line 1 is smaller than line 2");
+        }else
+            System.out.println("both Lines are equal");
+    }
 
 
     }
